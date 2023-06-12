@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-title {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.main-links {
+  margin-left: auto;
+}
+
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Work Section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .projects .project {
+    flex-basis: 100%;
+  }
+}
+
+/* CSS Variables */
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+nav ul li a {
+  color: var(--secondary-color);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--primary-color);
+}
