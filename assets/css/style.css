@@ -44,8 +44,9 @@ nav ul li a {
   margin-left: auto;
 }
 
-
 main {
+  max-width: 1800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -54,8 +55,17 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
 p {
   margin-bottom: 20px;
+}
+
+.section {
+  border-right: black;
 }
 
 /* Work Section */
