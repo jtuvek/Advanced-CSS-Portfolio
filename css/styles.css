@@ -68,9 +68,8 @@ section h2 {
   text-align: center;
 }
 
-.container ul li {
-  text-align: center;
-  list-style:none;
+.container > ul {
+  display: inline-block;
 }
 
 .project {
