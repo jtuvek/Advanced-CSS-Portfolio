@@ -19,6 +19,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align: center;
 }
 
 header {
@@ -64,6 +65,12 @@ section {
 section h2 {
   font-size: 2em;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.container ul li {
+  text-align: center;
+  list-style:none;
 }
 
 .project {
@@ -77,6 +84,7 @@ section h2 {
 
 .project h3 {
   margin-top: 10px;
+  text-align: center;
 }
 
 .contact p {
