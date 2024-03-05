@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+.container ul {
+  display: inline-block;
+}
+
 header {
   background: #333;
   color: #fff;
@@ -66,10 +70,6 @@ section h2 {
   font-size: 2em;
   margin-bottom: 20px;
   text-align: center;
-}
-
-.container > ul {
-  display: inline-block;
 }
 
 .project {
